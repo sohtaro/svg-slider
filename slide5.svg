@@ -1,0 +1,95 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Slide 5: サービス紹介と導入メリット -->
+  <g id="slide5">
+    <!-- Background -->
+    <rect width="1200" height="800" fill="#f8fafc"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="1200" height="80" fill="#6366f1"/>
+    <text x="600" y="45" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">
+      サービス紹介と導入メリット
+    </text>
+    
+    <!-- Service Content -->
+    <text x="80" y="130" fill="#6366f1" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+      IQVIAが提供できる支援内容
+    </text>
+    
+    <!-- Service Grid -->
+    <g transform="translate(80, 150)">
+      <!-- Service 1 -->
+      <rect x="0" y="0" width="260" height="80" fill="#e0e7ff" stroke="#6366f1" stroke-width="2" rx="10"/>
+      <text x="20" y="25" fill="#6366f1" font-family="Arial, sans-serif" font-size="16" font-weight="bold">人事評価制度の設計・運用支援</text>
+      <text x="20" y="45" fill="#374151" font-family="Arial, sans-serif" font-size="14">理念に基づく評価基準の構築</text>
+      <text x="20" y="65" fill="#374151" font-family="Arial, sans-serif" font-size="14">継続的な運用サポート</text>
+      
+      <!-- Service 2 -->
+      <rect x="280" y="0" width="260" height="80" fill="#e0e7ff" stroke="#6366f1" stroke-width="2" rx="10"/>
+      <text x="300" y="25" fill="#6366f1" font-family="Arial, sans-serif" font-size="16" font-weight="bold">採用・求人・トラブル対応</text>
+      <text x="300" y="45" fill="#374151" font-family="Arial, sans-serif" font-size="14">効果的な採用戦略の立案</text>
+      <text x="300" y="65" fill="#374151" font-family="Arial, sans-serif" font-size="14">労務トラブルの予防・解決</text>
+      
+      <!-- Service 3 -->
+      <rect x="560" y="0" width="260" height="80" fill="#e0e7ff" stroke="#6366f1" stroke-width="2" rx="10"/>
+      <text x="580" y="25" fill="#6366f1" font-family="Arial, sans-serif" font-size="16" font-weight="bold">組織育成・面談制度整備</text>
+      <text x="580" y="45" fill="#374151" font-family="Arial, sans-serif" font-size="14">体系的な面談制度の構築</text>
+      <text x="580" y="65" fill="#374151" font-family="Arial, sans-serif" font-size="14">院内ルールの整備</text>
+      
+      <!-- Service 4 -->
+      <rect x="840" y="0" width="260" height="80" fill="#e0e7ff" stroke="#6366f1" stroke-width="2" rx="10"/>
+      <text x="860" y="25" fill="#6366f1" font-family="Arial, sans-serif" font-size="16" font-weight="bold">経営支援・戦略立案</text>
+      <text x="860" y="45" fill="#374151" font-family="Arial, sans-serif" font-size="14">分院展開支援</text>
+      <text x="860" y="65" fill="#374151" font-family="Arial, sans-serif" font-size="14">総合的な経営戦略</text>
+    </g>
+    
+    <!-- Target Audience -->
+    <text x="80" y="290" fill="#f59e0b" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+      こんな院長におすすめです
+    </text>
+    
+    <g transform="translate(80, 310)">
+      <!-- Target 1 -->
+      <circle cx="20" cy="25" r="8" fill="#f59e0b"/>
+      <text x="40" y="32" fill="#374151" font-family="Arial, sans-serif" font-size="18">採用・評価制度が形骸化している</text>
+      
+      <!-- Target 2 -->
+      <circle cx="20" cy="60" r="8" fill="#f59e0b"/>
+      <text x="40" y="67" fill="#374151" font-family="Arial, sans-serif" font-size="18">院長の想いが組織に浸透していない</text>
+      
+      <!-- Target 3 -->
+      <circle cx="20" cy="95" r="8" fill="#f59e0b"/>
+      <text x="40" y="102" fill="#374151" font-family="Arial, sans-serif" font-size="18">スタッフを育て、定着させたい</text>
+      
+      <!-- Target 4 -->
+      <circle cx="20" cy="130" r="8" fill="#f59e0b"/>
+      <text x="40" y="137" fill="#374151" font-family="Arial, sans-serif" font-size="18">生産性を上げ、自分の時間を確保したい</text>
+    </g>
+    
+    <!-- Why IQVIA -->
+    <rect x="100" y="480" width="1000" height="120" fill="#6366f1" rx="15"/>
+    <text x="600" y="510" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+      なぜIQVIAが選ばれるのか
+    </text>
+    <text x="150" y="540" fill="white" font-family="Arial, sans-serif" font-size="18">
+      ✓ 提案から実行まで一貫支援　　✓ 医療業界の専門知識　　✓ 豊富な成功事例
+    </text>
+    <text x="150" y="570" fill="white" font-family="Arial, sans-serif" font-size="18">
+      ✓ 第三者の客観的視点　　　　　✓ 継続的なサポート体制　　✓ カスタマイズ対応
+    </text>
+    
+    <!-- Call to Action -->
+    <rect x="200" y="640" width="800" height="100" fill="#10b981" rx="20"/>
+    <text x="600" y="670" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+      ご興味がある方は、担当営業までお気軽にご相談ください
+    </text>
+    <text x="600" y="700" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18">
+      まずは現状の課題整理から始めませんか？
+    </text>
+    <text x="600" y="725" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">
+      ➡ 無料相談・現状診断も承っております
+    </text>
+    
+    <!-- Slide Number -->
+    <text x="1150" y="780" text-anchor="end" fill="#9ca3af" font-family="Arial, sans-serif" font-size="16">5/5</text>
+  </g>
+</svg>

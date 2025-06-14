@@ -1,0 +1,66 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Slide 1: 問題提起と導入 -->
+  <g id="slide1">
+    <!-- Background -->
+    <rect width="1200" height="800" fill="#f8fafc"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="1200" height="80" fill="#1e40af"/>
+    <text x="600" y="45" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">
+      スタッフが育ち、定着する！好循環を生む採用・評価のポイント
+    </text>
+    
+    <!-- Main Title -->
+    <text x="80" y="140" fill="#1e40af" font-family="Arial, sans-serif" font-size="32" font-weight="bold">
+      現在、多くの医療機関が抱える3つの課題
+    </text>
+    
+    <!-- Problem Icons and Text -->
+    <g transform="translate(80, 180)">
+      <!-- Problem 1 -->
+      <circle cx="40" cy="40" r="30" fill="#ef4444"/>
+      <text x="40" y="48" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">1</text>
+      <text x="100" y="32" fill="#374151" font-family="Arial, sans-serif" font-size="24" font-weight="bold">スタッフが採用できない</text>
+      <text x="120" y="58" fill="#6b7280" font-family="Arial, sans-serif" font-size="18">応募が来ない・紹介もされない</text>
+      
+      <!-- Problem 2 -->
+      <circle cx="40" cy="120" r="30" fill="#f97316"/>
+      <text x="40" y="128" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">2</text>
+      <text x="100" y="112" fill="#374151" font-family="Arial, sans-serif" font-size="24" font-weight="bold">背景にある構造的要因</text>
+      <text x="120" y="138" fill="#6b7280" font-family="Arial, sans-serif" font-size="18">医療機関の求人倍率は2.4倍超（一般企業は1.3倍）</text>
+      
+      <!-- Problem 3 -->
+      <circle cx="40" cy="200" r="30" fill="#eab308"/>
+      <text x="40" y="208" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">3</text>
+      <text x="100" y="192" fill="#374151" font-family="Arial, sans-serif" font-size="24" font-weight="bold">厳しい現実</text>
+      <text x="120" y="218" fill="#6b7280" font-family="Arial, sans-serif" font-size="18">看護師採用成功率はわずか15％</text>
+    </g>
+    
+    <!-- Statistics Box -->
+    <rect x="650" y="200" width="480" height="200" fill="#dbeafe" stroke="#1e40af" stroke-width="2" rx="10"/>
+    <text x="890" y="240" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
+      現状の厳しい数字
+    </text>
+    <text x="680" y="280" fill="#374151" font-family="Arial, sans-serif" font-size="16">
+      • 好条件の医療機関に応募が集中
+    </text>
+    <text x="680" y="310" fill="#374151" font-family="Arial, sans-serif" font-size="16">
+      • 求職者1人を3施設が取り合う状況
+    </text>
+    <text x="680" y="340" fill="#374151" font-family="Arial, sans-serif" font-size="16">
+      • 競争激化により採用コストも増大
+    </text>
+    
+    <!-- Call to Action -->
+    <rect x="200" y="500" width="800" height="100" fill="#10b981" rx="20"/>
+    <text x="600" y="535" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">
+      "選ばれる"クリニックになる必要性が高まっています！
+    </text>
+    <text x="600" y="570" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20">
+      ➡ 戦略的な採用・評価制度の構築が急務
+    </text>
+    
+    <!-- Slide Number -->
+    <text x="1150" y="780" text-anchor="end" fill="#9ca3af" font-family="Arial, sans-serif" font-size="16">1/5</text>
+  </g>
+</svg>

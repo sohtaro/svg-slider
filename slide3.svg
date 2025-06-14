@@ -1,0 +1,98 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Slide 3: ケーススタディ -->
+  <g id="slide3">
+    <!-- Background -->
+    <rect width="1200" height="800" fill="#f8fafc"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="1200" height="80" fill="#ef4444"/>
+    <text x="600" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+      実例紹介／関東クリニックのケーススタディ
+    </text>
+    <text x="600" y="60" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18">
+      人事評価制度を導入しても離職が止まらなかった理由
+    </text>
+    
+    <!-- Before Section -->
+    <text x="80" y="130" fill="#ef4444" font-family="Arial, sans-serif" font-size="28" font-weight="bold">
+      導入前の状況
+    </text>
+    
+    <!-- Director's Efforts -->
+    <g transform="translate(80, 150)">
+      <rect x="0" y="0" width="520" height="180" fill="#fef2f2" stroke="#ef4444" stroke-width="2" rx="10"/>
+      <text x="20" y="30" fill="#ef4444" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
+        院長の取り組み
+      </text>
+      <circle cx="40" cy="60" r="8" fill="#ef4444"/>
+      <text x="60" y="68" fill="#374151" font-family="Arial, sans-serif" font-size="16">外部セミナー参加</text>
+      <circle cx="40" cy="90" r="8" fill="#ef4444"/>
+      <text x="60" y="98" fill="#374151" font-family="Arial, sans-serif" font-size="16">フレームワーク導入</text>
+      <circle cx="40" cy="120" r="8" fill="#ef4444"/>
+      <text x="60" y="128" fill="#374151" font-family="Arial, sans-serif" font-size="16">多様な工夫を継続</text>
+      <circle cx="40" cy="150" r="8" fill="#ef4444"/>
+      <text x="60" y="158" fill="#374151" font-family="Arial, sans-serif" font-size="16">熱心な制度構築への取り組み</text>
+    </g>
+    
+    <!-- Staff's Real Voice -->
+    <g transform="translate(640, 150)">
+      <rect x="0" y="0" width="480" height="180" fill="#fef2f2" stroke="#ef4444" stroke-width="2" rx="10"/>
+      <text x="20" y="30" fill="#ef4444" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
+        スタッフの本音
+      </text>
+      <circle cx="40" cy="60" r="8" fill="#ef4444"/>
+      <text x="60" y="68" fill="#374151" font-family="Arial, sans-serif" font-size="16">面談・フィードバックがない</text>
+      <circle cx="40" cy="90" r="8" fill="#ef4444"/>
+      <text x="60" y="98" fill="#374151" font-family="Arial, sans-serif" font-size="16">制度の目的が不明</text>
+      <circle cx="40" cy="120" r="8" fill="#ef4444"/>
+      <text x="60" y="128" fill="#374151" font-family="Arial, sans-serif" font-size="16">貢献と評価が連動していない</text>
+      <circle cx="40" cy="150" r="8" fill="#ef4444"/>
+      <text x="60" y="158" fill="#374151" font-family="Arial, sans-serif" font-size="16">納得できない評価に不信感</text>
+    </g>
+    
+    <!-- Problem Analysis -->
+    <rect x="100" y="380" width="1000" height="120" fill="#fee2e2" stroke="#ef4444" stroke-width="3" rx="15"/>
+    <text x="600" y="410" text-anchor="middle" fill="#ef4444" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+      問題の根本原因
+    </text>
+    <text x="150" y="440" fill="#374151" font-family="Arial, sans-serif" font-size="18">
+      ➡ 一貫性とフィードバック不足が原因で、制度が形骸化
+    </text>
+    <text x="150" y="470" fill="#374151" font-family="Arial, sans-serif" font-size="18">
+      ➡ 院長とスタッフの間にギャップが生じ、離職につながっていた
+    </text>
+    
+    <!-- Gap Illustration -->
+    <g transform="translate(200, 540)">
+      <!-- Doctor side -->
+      <circle cx="150" cy="50" r="40" fill="#1e40af"/>
+      <text x="150" y="58" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">院長</text>
+      <text x="150" y="110" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="14">制度構築への熱意</text>
+      
+      <!-- Gap -->
+      <rect x="220" y="20" width="160" height="60" fill="#fef2f2" stroke="#ef4444" stroke-width="2" rx="10"/>
+      <text x="300" y="45" text-anchor="middle" fill="#ef4444" font-family="Arial, sans-serif" font-size="16" font-weight="bold">コミュニケーション</text>
+      <text x="300" y="65" text-anchor="middle" fill="#ef4444" font-family="Arial, sans-serif" font-size="16" font-weight="bold">ギャップ</text>
+      
+      <!-- Staff side -->
+      <circle cx="450" cy="50" r="40" fill="#f59e0b"/>
+      <text x="450" y="58" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">スタッフ</text>
+      <text x="450" y="110" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="14">理解と納得感の不足</text>
+      
+      <!-- Arrows -->
+      <path d="M190 50 L220 50" stroke="#ef4444" stroke-width="3" marker-end="url(#arrowhead)"/>
+      <path d="M380 50 L410 50" stroke="#ef4444" stroke-width="3" marker-end="url(#arrowhead)"/>
+    </g>
+    
+    <!-- Arrow marker definition -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+              refX="10" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#ef4444"/>
+      </marker>
+    </defs>
+    
+    <!-- Slide Number -->
+    <text x="1150" y="780" text-anchor="end" fill="#9ca3af" font-family="Arial, sans-serif" font-size="16">3/5</text>
+  </g>
+</svg>

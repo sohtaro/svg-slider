@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG スライドショー</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 20px;
+    }
+    #slide-container {
+      width: 80%;
+      max-width: 800px;
+    }
+    #slide {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #007bff;
+    }
+    nav a:hover:not(.disabled) {
+      text-decoration: underline;
+    }
+    nav a.disabled {
+      color: #ccc;
+      pointer-events: none;
+      cursor: default;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="slide-container">
+    <img id="slide" src="slide1.svg" alt="スライド">
+  </div>
+  <nav>
+    <a href="#" id="prev" class="disabled">◀ 前のスライド</a>
+    |
+    <a href="#" id="next">次のスライド ▶</a>
+  </nav>
+
+  <script>
+    const slides = [
+      'slide1.svg',
+      'slide2.svg',
+      'slide3.svg',
+      'slide4.svg',
+      'slide5.svg'
+    ];
+    let currentIndex = 0;
+    const slideEl = document.getElementById('slide');
+    const prevLink = document.getElementById('prev');
+    const nextLink = document.getElementById('next');
+
+    function updateNav() {
+      if (currentIndex === 0) {
+        prevLink.classList.add('disabled');
+      } else {
+        prevLink.classList.remove('disabled');
+      }
+      if (currentIndex === slides.length - 1) {
+        nextLink.classList.add('disabled');
+      } else {
+        nextLink.classList.remove('disabled');
+      }
+    }
+
+    prevLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (currentIndex > 0) {
+        currentIndex--;
+        slideEl.src = slides[currentIndex];
+        updateNav();
+      }
+    });
+
+    nextLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (currentIndex < slides.length - 1) {
+        currentIndex++;
+        slideEl.src = slides[currentIndex];
+        updateNav();
+      }
+    });
+
+    // 初回ナビゲーション状態更新
+    updateNav();
+  </script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Slide 4: IQVIA解決アプローチと成果 -->
+  <g id="slide4">
+    <!-- Background -->
+    <rect width="1200" height="800" fill="#f8fafc"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="1200" height="80" fill="#10b981"/>
+    <text x="600" y="45" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">
+      IQVIAの解決アプローチと成果
+    </text>
+    
+    <!-- Solution Steps -->
+    <text x="80" y="130" fill="#10b981" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+      解決の3ステップ（第三者支援）
+    </text>
+    
+    <!-- Step 1 -->
+    <g transform="translate(80, 150)">
+      <rect x="0" y="0" width="320" height="100" fill="#dcfce7" stroke="#10b981" stroke-width="2" rx="10"/>
+      <circle cx="30" cy="30" r="20" fill="#10b981"/>
+      <text x="30" y="38" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">1</text>
+      <text x="70" y="25" fill="#10b981" font-family="Arial, sans-serif" font-size="18" font-weight="bold">課題の明確化</text>
+      <text x="70" y="50" fill="#374151" font-family="Arial, sans-serif" font-size="14">全スタッフと個別面談</text>
+      <text x="70" y="70" fill="#374151" font-family="Arial, sans-serif" font-size="14">現状の詳細な把握</text>
+    </g>
+    
+    <!-- Step 2 -->
+    <g transform="translate(440, 150)">
+      <rect x="0" y="0" width="320" height="100" fill="#dcfce7" stroke="#10b981" stroke-width="2" rx="10"/>
+      <circle cx="30" cy="30" r="20" fill="#10b981"/>
+      <text x="30" y="38" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">2</text>
+      <text x="70" y="25" fill="#10b981" font-family="Arial, sans-serif" font-size="18" font-weight="bold">原因の特定</text>
+      <text x="70" y="50" fill="#374151" font-family="Arial, sans-serif" font-size="14">要因分析と優先度の明確化</text>
+      <text x="70" y="70" fill="#374151" font-family="Arial, sans-serif" font-size="14">構造的問題の把握</text>
+    </g>
+    
+    <!-- Step 3 -->
+    <g transform="translate(800, 150)">
+      <rect x="0" y="0" width="320" height="100" fill="#dcfce7" stroke="#10b981" stroke-width="2" rx="10"/>
+      <circle cx="30" cy="30" r="20" fill="#10b981"/>
+      <text x="30" y="38" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">3</text>
+      <text x="70" y="25" fill="#10b981" font-family="Arial, sans-serif" font-size="18" font-weight="bold">制度構築と実行支援</text>
+      <text x="70" y="50" fill="#374151" font-family="Arial, sans-serif" font-size="14">理念を軸に運用可能な制度</text>
+      <text x="70" y="70" fill="#374151" font-family="Arial, sans-serif" font-size="14">継続的な支援体制</text>
+    </g>
+    
+    <!-- Results Section -->
+    <text x="80" y="310" fill="#1e40af" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+      成果（改善前後比較）
+    </text>
+    
+    <!-- Before/After Comparison -->
+    <g transform="translate(80, 330)">
+      <!-- Before -->
+      <rect x="0" y="0" width="280" height="180" fill="#fef2f2" stroke="#ef4444" stroke-width="2" rx="10"/>
+      <text x="140" y="25" text-anchor="middle" fill="#ef4444" font-family="Arial, sans-serif" font-size="18" font-weight="bold">改善前</text>
+      <text x="20" y="50" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 離職率：高水準</text>
+      <text x="20" y="70" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 評価基準：不明確</text>
+      <text x="20" y="90" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 面談：不定期・なし</text>
+      <text x="20" y="110" fill="#374151" font-family="Arial, sans-serif" font-size="14">• スタッフ満足度：低</text>
+      <text x="20" y="130" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 組織の方向性：曖昧</text>
+      <text x="20" y="150" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 院長の想い：未浸透</text>
+    </g>
+    
+    <!-- Arrow -->
+    <g transform="translate(380, 400)">
+      <path d="M0 20 L120 20" stroke="#10b981" stroke-width="4" marker-end="url(#greenarrow)"/>
+      <text x="60" y="15" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="16" font-weight="bold">IQVIA支援</text>
+    </g>
+    
+    <!-- After -->
+    <g transform="translate(520, 330)">
+      <rect x="0" y="0" width="300" height="180" fill="#dcfce7" stroke="#10b981" stroke-width="2" rx="10"/>
+      <text x="150" y="25" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="18" font-weight="bold">改善後</text>
+      <text x="20" y="50" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 離職率：38%改善</text>
+      <text x="20" y="70" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 理念に基づく評価基準の明確化</text>
+      <text x="20" y="90" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 面談実施回数：年4回</text>
+      <text x="20" y="110" fill="#374151" font-family="Arial, sans-serif" font-size="14">• スタッフ満足度向上</text>
+      <text x="20" y="130" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 行動変容が加速</text>
+      <text x="20" y="150" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 組織一体感の醸成</text>
+    </g>
+    
+    <!-- Key Result Highlight -->
+    <g transform="translate(850, 330)">
+      <rect x="0" y="0" width="270" height="180" fill="#1e40af" rx="15"/>
+      <text x="135" y="30" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
+        離職率改善
+      </text>
+      <text x="135" y="80" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="48" font-weight="bold">
+        38%
+      </text>
+      <text x="135" y="110" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
+        DOWN
+      </text>
+      <text x="135" y="140" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">
+        大幅な改善を実現
+      </text>
+      <text x="135" y="165" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">
+        持続可能な組織へ
+      </text>
+    </g>
+    
+    <!-- Bottom Message -->
+    <rect x="200" y="580" width="800" height="80" fill="#10b981" rx="15"/>
+    <text x="600" y="610" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+      "理想のクリニックづくり"が現実に
+    </text>
+    <text x="600" y="640" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18">
+      ➡ 第三者の客観的視点と専門性が成功の鍵
+    </text>
+    
+    <!-- Arrow marker definition -->
+    <defs>
+      <marker id="greenarrow" markerWidth="10" markerHeight="7" 
+              refX="10" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#10b981"/>
+      </marker>
+    </defs>
+    
+    <!-- Slide Number -->
+    <text x="1150" y="780" text-anchor="end" fill="#9ca3af" font-family="Arial, sans-serif" font-size="16">4/5</text>
+  </g>
+</svg>

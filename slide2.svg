@@ -1,0 +1,78 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Slide 2: 選ばれるクリニックの共通点 -->
+  <g id="slide2">
+    <!-- Background -->
+    <rect width="1200" height="800" fill="#f8fafc"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="1200" height="80" fill="#10b981"/>
+    <text x="600" y="45" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">
+      選ばれるクリニックの共通点
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="600" y="130" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+      3つの共通点がクリニックの魅力を左右します
+    </text>
+    
+    <!-- Point 1 -->
+    <g transform="translate(80, 170)">
+      <rect x="0" y="0" width="320" height="160" fill="#dbeafe" stroke="#1e40af" stroke-width="2" rx="10"/>
+      <circle cx="30" cy="30" r="20" fill="#1e40af"/>
+      <text x="30" y="38" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">1</text>
+      <text x="70" y="25" fill="#1e40af" font-family="Arial, sans-serif" font-size="18" font-weight="bold">理念の明文化と体現</text>
+      <text x="20" y="55" fill="#374151" font-family="Arial, sans-serif" font-size="14">• Vision/Mission/Valueの明文化</text>
+      <text x="20" y="80" fill="#374151" font-family="Arial, sans-serif" font-size="14">• スタッフの行動目標に落とし込み</text>
+      <text x="20" y="105" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 組織全体に共通認識を定着</text>
+      <text x="20" y="130" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 院長の想いの体現</text>
+    </g>
+    
+    <!-- Point 2 -->
+    <g transform="translate(440, 170)">
+      <rect x="0" y="0" width="320" height="160" fill="#dcfce7" stroke="#10b981" stroke-width="2" rx="10"/>
+      <circle cx="30" cy="30" r="20" fill="#10b981"/>
+      <text x="30" y="38" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">2</text>
+      <text x="70" y="25" fill="#10b981" font-family="Arial, sans-serif" font-size="18" font-weight="bold">採用段階の工夫</text>
+      <text x="20" y="55" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 多様なチャネル活用</text>
+      <text x="20" y="80" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 迅速なレスポンス</text>
+      <text x="20" y="105" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 客観的な面談評価シート</text>
+      <text x="20" y="130" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 意識変革の実現</text>
+    </g>
+    
+    <!-- Point 3 -->
+    <g transform="translate(800, 170)">
+      <rect x="0" y="0" width="320" height="160" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" rx="10"/>
+      <circle cx="30" cy="30" r="20" fill="#f59e0b"/>
+      <text x="30" y="38" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">3</text>
+      <text x="70" y="25" fill="#f59e0b" font-family="Arial, sans-serif" font-size="18" font-weight="bold">キャリア構築・評価制度</text>
+      <text x="20" y="55" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 権限委譲と成長機会</text>
+      <text x="20" y="80" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 理念連動の評価制度</text>
+      <text x="20" y="105" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 柔軟な条件設計</text>
+      <text x="20" y="130" fill="#374151" font-family="Arial, sans-serif" font-size="14">• 納得度の高いインセンティブ</text>
+    </g>
+    
+    <!-- Key Message Box -->
+    <rect x="150" y="380" width="900" height="120" fill="#1e40af" rx="15"/>
+    <text x="600" y="420" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+      意識変革のポイント
+    </text>
+    <text x="600" y="450" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20">
+      「雇ってあげている」から「働いてもらっている」へ
+    </text>
+    <text x="600" y="480" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18">
+      ➡ 双方向の価値創造を重視する組織文化の構築
+    </text>
+    
+    <!-- Bottom Message -->
+    <rect x="200" y="560" width="800" height="60" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1" rx="10"/>
+    <text x="600" y="585" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+      これらの要素が相互に作用し、持続可能な組織づくりを実現
+    </text>
+    <text x="600" y="610" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="16">
+      単発の施策ではなく、統合的なアプローチが重要
+    </text>
+    
+    <!-- Slide Number -->
+    <text x="1150" y="780" text-anchor="end" fill="#9ca3af" font-family="Arial, sans-serif" font-size="16">2/5</text>
+  </g>
+</svg>
